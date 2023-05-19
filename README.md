@@ -1,0 +1,17 @@
+> ## __Promineo Tech__ - Front End Boot Camp 
+
+# Week Eight Coding Assignment
+ 
+> ## _Requirement_
+> 
+> - Style the HTML Website you created last week using CSS
+> - - Use only external CSS file (no internal or inline styling)
+> - - Every element must be styled
+> - - Crate style rules using class, id, and element selectors
+
+
+ 
+> ### Adding CSS to our HTML - Make the HTML look Pretty! 
+> 
+> 
+
