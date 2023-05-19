@@ -28,24 +28,24 @@ h1 span {
 }
 
 .title h1:before {
-    width: 40px;
+    width: 56px;
     height: 5px;
     display: block;
     content: "";
     position: absolute;
     bottom: 3px;
-    left: 40%;
+    left: 50%;
     margin-left: -14px;
     background-color: #006400;
   }
   .title h1:after {
-    width: 220px;
+    width: 200px;
     height: 1px;
     display: block;
     content: "";
     position: relative;
     margin-top: 5px;
-    left: 40%;
+    left: 50%;
     margin-left: -100px;
     background-color: #006600;
   }
@@ -113,4 +113,61 @@ h1 span {
     text-align: justify;
   }
 
+  .sty-home .signature p { 
+    font-family: 'Tangerine', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .sty-bgspot {
+    display: inline-block; 
+    width: 100%; 
+    margin: 10px;
+  }
+  
+  .sty-bgspot img { 
+    float: left;
+    margin-right: 20px;
+    padding: 0;
+    vertical-align: top;
+  }
+
+  .sty-bgspot .small-text a { 
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+
+  .sty-bgspot .large-text a { 
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+
+  .sty-bgspot p {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 0;
+  }
+
+  .sty-bgspot .signature p {
+    font-family: 'Tangerine', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
+  }
 
