@@ -1,9 +1,13 @@
-.container { 
+/* ---- Body Attributes ---- */
+
+.sty-container { 
     position: relative;
     margin: auto; 
     width: 50%;
     padding: 10px;
 }
+
+/* ---- Body Titles Attributes ---- */
 
 h1 { 
     position: relative;
@@ -28,26 +32,26 @@ h1 span {
 }
 
 .title h1:before {
-    width: 56px;
+    width: 60px;
     height: 5px;
     display: block;
     content: "";
     position: absolute;
     bottom: 3px;
     left: 50%;
-    margin-left: -14px;
-    background-color: #006400;
+    margin-left: -30px;
+    background-color: #be163a;
   }
   .title h1:after {
-    width: 200px;
+    width: 240px;
     height: 1px;
     display: block;
     content: "";
     position: relative;
-    margin-top: 5px;
+    margin-top: 10px;
     left: 50%;
-    margin-left: -100px;
-    background-color: #006600;
+    margin-left: -120px;
+    background-color: #be163a;
   }
 
   .title h2 { 
@@ -67,6 +71,16 @@ h1 span {
     font-weight: 400;
     margin: 5px;
   }
+
+  .title h4 { 
+    display: block; 
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 1rem;
+    margin:0; 
+    padding: 0;
+  }
+
+  /* ---- Menu Sytling Attributes ---*/
 
   .sty-menu {
     display: block;
@@ -92,6 +106,8 @@ h1 span {
     font-weight: 700;
     color: #006600;
   }
+
+  /* ---- Index Page Styling Attributes ---- */
 
   .sty-home {
     display: inline-block; 
@@ -121,6 +137,7 @@ h1 span {
     text-align: justify;
   }
 
+  /* ---- Blog Page Styling Attributes ---- */
   .sty-bgspot {
     display: inline-block; 
     width: 100%; 
@@ -129,9 +146,21 @@ h1 span {
   
   .sty-bgspot img { 
     float: left;
+    margin-top: 15px;
     margin-right: 20px;
     padding: 0;
     vertical-align: top;
+  }
+
+  .sty-bgspot .right img { 
+    float: right;
+    position: relative;
+    margin-top: 15px;
+    height: 600px;
+    width: 235px;
+    left: -13%;
+    padding: 0;
+    vertical-align: bottom;
   }
 
   .sty-bgspot .small-text a { 
@@ -154,6 +183,11 @@ h1 span {
     margin-bottom: 0;
   }
 
+  .sty-bgspot .inline {
+    display: inline-block;
+    vertical-align: top;
+  }
+
   .sty-bgspot p {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 22px;
@@ -170,4 +204,120 @@ h1 span {
     font-style: italic;
     text-align: justify;
   }
+
+/* ---- Table Styling Attributes ---- */
+.sty-table {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.sty-table td, .sty-table th { 
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.sty-table tr:nth-child(even){
+  background-color: #F1FDED;
+}
+
+.sty-table tr:hover { 
+  background-color: #ddd;
+}
+
+.sty-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: #FFF;
+}
+
+/* ---- Form Styling Attributes ---- */
+.sty-form {
+  margin: 1px;
+	font-family:arial,tahoma,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	direction:ltr;
+  background:white;
+  
+}
+
+.sty-form form {
+  margin: 10px auto 0 auto;
+	padding: 5px;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	background: white;
+	border-radius: 10px;
+}
+
+.sty-form .spacer div { 
+  margin: 12px;
+}
+
+.sty-form img { 
+  float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 300px;
+    padding: 0;
+    vertical-align: top;
+}
+
+.sty-form label,
+.sty-form input {
+  font-size: 14px;
+  padding: 15px;
+  margin: 30px;
+  color: lightslategray;
+  cursor: pointer; 
+  margin: 10px auto 0 auto;
+  padding: 20px; 
+ 
+  height: auto; 
+  background: white;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.sty-form input { 
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  box-sizing: border-box;
+  transition: 0.2s ease all;
+}
+
+.sty-form textarea {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  transition: 0.2s ease all;
+}
+
+.sty-form input[type=text].focus { 
+  border-color: cornflowerblue;
+}
+
+.sty-form input[type=submit] {
+  block-size: auto;
+  float: right;
+  padding: 20px 50px;
+  width: auto;
+  background: #04AA6D;
+  color: white;
+  cursor: pointer;
+  transition:0.2s ease all;
+  
+}
+
 
