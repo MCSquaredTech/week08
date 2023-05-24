@@ -406,9 +406,10 @@ article .sty-button {
   height: auto; 
 }
 
-.sty-img-float-right{
+.sty-float-right img{
   display: block;
   float: right; 
+  width: 50%;
 }
 
 .sty-img-block-header { 
