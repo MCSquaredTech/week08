@@ -1,6 +1,6 @@
 /* ---- Body Attributes ---- */
 
-.sty-container { 
+#sty-container { 
     position: relative;
     margin: auto; 
     width: 50%;
